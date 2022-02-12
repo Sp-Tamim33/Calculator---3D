@@ -46,6 +46,11 @@ button{
     background-color: white;
     cursor: pointer;
     text-align: center;
+    transition: .4s;
+}
+
+button:hover{
+    box-shadow: 4px 4px 10px 0 rgb(0 0 0 / 20%);
 }
 .ecl{
     grid-column: span 2;
